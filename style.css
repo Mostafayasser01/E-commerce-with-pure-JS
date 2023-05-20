@@ -1,0 +1,86 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.MarginTop{
+    margin-top: 80px;
+}
+
+.BGHeader{
+    background-color: rgba(198, 187, 228, 0.73);
+}
+
+.HeadLines{
+    font-family: robotic;
+    letter-spacing: 10px;
+}
+
+.EffectImg:hover{
+    /* width: 250px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+
+}
+.TopSalesimg:hover{
+    padding: 10px;
+
+}
+.CateguriesDiv{
+    padding: 15px;
+}
+
+.Animate{
+    position: relative;
+  animation-name: example;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+
+.Animate1{
+    position: relative;
+  animation-name: example1;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+
+.Silders {
+  position: relative;
+  animation-duration: 3s;
+  animation-name: slidein;
+  /* animation-iteration-count: infinite; */
+}
+
+
+
+
+#ContactPage{
+background-color: rgb(255, 255, 255);
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    50%  { left:100px; top:0px;}
+    100% { left:0px; top:0px;}
+  }
+  @keyframes example1 {
+    0%   { right:0px; top:0px;}
+    50%  { right:35px; top:0px;}
+    100% { right:0px; top:0px;}
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
